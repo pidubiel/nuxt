@@ -8,7 +8,7 @@
         <nuxt-link to="/products">Products</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/checkout">Checkout</nuxt-link>
       </li>
     </ul>
   </header>

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>About page</h1>
+    <nuxt-link to="/">Back to home</nuxt-link>
+    <h1>Checkout page</h1>
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 export default {
   head() {
     return {
-      title: "About page",
+      title: "Checkout",
       meta: [
         {
           hid: "description",
