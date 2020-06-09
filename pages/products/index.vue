@@ -49,10 +49,7 @@ export default {
     };
     const {
       data: { data }
-    } = await axios.get(
-      `http://192.168.33.10/sales-channel-api/v1/product`,
-      config
-    );
+    } = await axios.get(`${process.env.baseUrl}/product`, config);
     console.log("AsyncData");
     return { products: data };
   }

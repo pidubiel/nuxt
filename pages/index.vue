@@ -24,7 +24,7 @@ export default {
       };
       try {
         const token = await axios.post(
-          `http://192.168.33.10/sales-channel-api/v1/checkout/cart`,
+          `${process.env.baseUrl}/checkout/cart`,
           null,
           {
             headers: {

@@ -66,10 +66,7 @@ export default {
     };
     const {
       data: { data }
-    } = await axios.get(
-      `http://192.168.33.10/sales-channel-api/v1/product/${params.pid}`,
-      config
-    );
+    } = await axios.get(`${process.env.baseUrl}/product/${params.pid}`, config);
     return { productData: data };
   }
 };
