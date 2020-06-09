@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: rgb(235, 235, 235);
 }
 .nav-items {
   list-style: none;
